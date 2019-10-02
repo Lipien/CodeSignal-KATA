@@ -1,4 +1,4 @@
-package pl.pawtel;
+package pl.pawtel.findDuplicateInArray;
 
 public class Main {
     static int findDuplicate(int[] a) {
@@ -11,7 +11,6 @@ public class Main {
                     break;
                 }
             }
-
         }
         System.out.println("The duplicate is: " + duplicate);
         return duplicate;
